@@ -24,36 +24,36 @@
 
 ## 3. ライブラリ（lib/）
 
-- [ ] `lib/json.ts` — `formatJson` / `minifyJson`（エラー行番号付き、`JsonResult` 型定義）
-- [ ] `lib/base64.ts` — `encode` / `decode` / `detectMode`（Unicode 対応、TextEncoder/TextDecoder 使用）
-- [ ] `lib/jwt.ts` — `decodeJwt` / `getClaimDescription`（`JwtParts` 型定義）
+- [x] `lib/json.ts` — `formatJson` / `minifyJson`（エラー行番号付き、`JsonResult` 型定義）
+- [x] `lib/base64.ts` — `encode` / `decode` / `detectMode`（Unicode 対応、TextEncoder/TextDecoder 使用）
+- [x] `lib/jwt.ts` — `decodeJwt` / `getClaimDescription`（`JwtParts` 型定義）
 
 ---
 
 ## 4. JSON 整形ツール
 
-- [ ] `app/json/page.tsx`
-- [ ] `components/json/JsonInput.tsx` — テキストエリア入力
-- [ ] `components/json/JsonOutput.tsx` — シンタックスハイライト + エラー行赤ハイライト
-- [ ] `components/json/JsonFormatter.tsx` — Pretty/Minify 切り替え + `AnimatePresence` フェード遷移
+- [x] `app/json/page.tsx`
+- [x] `components/json/JsonInput.tsx` — テキストエリア入力
+- [x] `components/json/JsonOutput.tsx` — シンタックスハイライト + エラー行赤ハイライト
+- [x] `components/json/JsonFormatter.tsx` — Pretty/Minify 切り替え + `AnimatePresence` フェード遷移
 
 ---
 
 ## 5. Base64 変換ツール
 
-- [ ] `app/base64/page.tsx`
-- [ ] `components/base64/DetectionBadge.tsx` — 「Encoded」/「Plain」バッジ自動表示
-- [ ] `components/base64/FlowAnimation.tsx` — 文字を `<motion.span>` 分割 + `staggerChildren` 波状アニメーション
-- [ ] `components/base64/Base64Converter.tsx` — エンコード・デコード + 自動判定
+- [x] `app/base64/page.tsx`
+- [x] `components/base64/DetectionBadge.tsx` — 「Encoded」/「Plain」バッジ自動表示
+- [x] `components/base64/FlowAnimation.tsx` — 文字を `<motion.span>` 分割 + `staggerChildren` 波状アニメーション
+- [x] `components/base64/Base64Converter.tsx` — エンコード・デコード + 自動判定
 
 ---
 
 ## 6. JWT デコードツール
 
-- [ ] `app/jwt/page.tsx`
-- [ ] `components/jwt/JwtCard.tsx` — shadcn/ui Card + Tooltip（`getClaimDescription` 連携）
-- [ ] `components/jwt/ExpiryBar.tsx` — 進捗バー（有効中: 緑 / 期限切れ: 赤 + Expired バッジ）
-- [ ] `components/jwt/JwtDecoder.tsx` — 3 カード（Header / Payload / Signature）展開表示
+- [x] `app/jwt/page.tsx`
+- [x] `components/jwt/JwtCard.tsx` — shadcn/ui Card + Tooltip（`getClaimDescription` 連携）
+- [x] `components/jwt/ExpiryBar.tsx` — 進捗バー（有効中: 緑 / 期限切れ: 赤 + Expired バッジ）
+- [x] `components/jwt/JwtDecoder.tsx` — 3 カード（Header / Payload / Signature）展開表示
 
 ---
 
