@@ -6,19 +6,19 @@
 
 ## 1. プロジェクト初期化
 
-- [ ] Next.js 14 プロジェクトのセットアップ（`pnpm create next-app`）
-- [ ] 依存パッケージのインストール（`framer-motion`, `react-syntax-highlighter`, `jwt-decode`）
-- [ ] shadcn/ui の初期化（`pnpm dlx shadcn-ui@latest init`）
-- [ ] shadcn/ui コンポーネントの追加（Button, Card, Tooltip, Badge, Progress）
-- [ ] TailwindCSS 設定確認（`tailwind.config.ts` の content パス）
+- [x] Next.js 14 プロジェクトのセットアップ（`pnpm create next-app`）
+- [x] 依存パッケージのインストール（`framer-motion`, `react-syntax-highlighter`, `jwt-decode`）
+- [x] shadcn/ui の初期化（`pnpm dlx shadcn-ui@latest init`）
+- [x] shadcn/ui コンポーネントの追加（Button, Card, Tooltip, Badge, Progress）
+- [x] TailwindCSS 設定確認（`tailwind.config.ts` の content パス）
 
 ---
 
 ## 2. レイアウト / 共通コンポーネント
 
-- [ ] `app/layout.tsx` — RootLayout（Sidebar 組み込み、flex h-screen 構成）
-- [ ] `app/page.tsx` — `/` → `/json` リダイレクト
-- [ ] `components/layout/Sidebar.tsx` — ナビゲーション + レスポンシブ対応（モバイルでアイコンのみ）
+- [x] `app/layout.tsx` — RootLayout（Sidebar 組み込み、flex h-screen 構成）
+- [x] `app/page.tsx` — `/` → `/json` リダイレクト
+- [x] `components/layout/Sidebar.tsx` — ナビゲーション + レスポンシブ対応（モバイルでアイコンのみ）
 
 ---
 
