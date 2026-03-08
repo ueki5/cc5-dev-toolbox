@@ -78,9 +78,9 @@
 
 ## 9. 自動検証（/browser-verify）
 
-- [ ] 全機能（セクション 1〜6）の実装完了
-- [ ] `/browser-verify` コマンドで自動検証を実行
-- [ ] `docs/REPORT.md` で結果を確認・レビュー
+- [x] 全機能（セクション 1〜6）の実装完了
+- [x] `/browser-verify` コマンドで自動検証を実行
+- [x] `docs/REPORT.md` で結果を確認・レビュー
 
 ---
 
