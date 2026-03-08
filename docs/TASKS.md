@@ -67,8 +67,8 @@
 
 ## 8. browser-verify スキル の作成
 
-- [ ] `docs/evidence/` ディレクトリの作成（スクリーンショット保存先）
-- [ ] `.claude/skills/browser-verify/SKILL.md` の作成
+- [x] `docs/evidence/` ディレクトリの作成（スクリーンショット保存先）
+- [x] `.claude/skills/browser-verify/SKILL.md` の作成
   - chrome-devtools-mcp でブラウザを自動操作する手順
   - 各機能の正常系・異常系テストシナリオ（下記「検証チェックリスト」準拠）
   - スクリーンショットを `docs/evidence/<tool>-<scenario>.png` として保存
