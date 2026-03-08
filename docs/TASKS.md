@@ -61,7 +61,7 @@
 
 - [x] `.mcp.json` を作成し `chrome-devtools-mcp` サーバーを登録
 - [x] Chrome を `--remote-debugging-port=9222` で起動できることを確認
-- [ ] Claude Code から MCP ツールが認識されることを確認（`/mcp` コマンドで一覧確認）
+- [x] Claude Code から MCP ツールが認識されることを確認（`/mcp` コマンドで一覧確認）
 
 ---
 
